@@ -25,6 +25,12 @@ namespace ExplicitInterface_or_MultipleInheritenceImplementation
             ISecond secondObj = obj;
             secondObj.Show();//calling the ISecond interface Show() Method.
 
+            IThird thirdObj=obj;//Here assiging the object to Ithird interface reference variablename.
+            thirdObj.Show();
+
+            IFourth fourthObj=obj;
+            fourthObj.Show();
+
             Console.ReadLine();
 
 
